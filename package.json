@@ -1,0 +1,27 @@
+{
+  "name": "studion_aula",
+  "version": "0.0.1",
+  "description": "\u0016",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariawelter/studion2021.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JAVASCRIPT"
+  ],
+  "author": "Maria Welter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariawelter/studion2021/issues"
+  },
+  "homepage": "https://github.com/mariawelter/studion2021#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
