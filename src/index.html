@@ -9,6 +9,7 @@
 
     <body>
         <nav class="navbar">
+        <div class="container navbar_container">
             <h1 class="logo-studion">
                 Studi<span class="copy--primary">on</span>
                 <span class="logo-studion__subtitle">Eventos</span>
@@ -20,6 +21,7 @@
                 <li><a href="#depoimentos">Depoimentos</a></li>
                 <li><a href="#contatos">Contatos</a></li>
             </ul>
+        </div>
         </nav>
 
         <header>
@@ -36,20 +38,20 @@
         </header>
 
         <main>
-            <section id="eventos">
-                <ul>
-                    <li><h3>+ de 500 </h3>eventos realizados </li>
-                    <li><h3>+ de 1,000,000 </h3>de ingressos vendidos</li>
-                    <li><h3>+ de 300 </h3>empresa atendidas</li>
+            <section id="counter">
+                <ul class="container counter_container">
+                    <li><h3>+ de 500 <small>eventos realizados</small></h3></li>
+                    <li><h3>+ de 1,000,000 <small>de ingressos vendidos</small></h3></li>
+                    <li><h3>+ de 300 <small>empresa atendidas</small> </h3></li>
                 </ul>
             </section>
-            <section id="sobre">
-                <div class="info">
-                    <img src="images/institutional.jpg" alt="Imagem Institucional">
+            <section class="container institutional">
+                <img class='institutional_image' src="images/institutional.jpg" alt="Imagem Institucional">
+                <div class="institutional_copy">
                     <h6>Fazemos seu evento acontecer</h6>
                     <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit, adipisicing elit</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quia fugiat, deleniti atque dicta adipisci dolor aut! Cum rerum tenetur delectus molestias deleniti quo fugit, recusandae volupta.</p>
-                    <button>Saiba Mais</button>
+                    <button class="btn btn--institutional">Saiba Mais</button>
                 </div>
             </section>
             <section id="cotacao">
